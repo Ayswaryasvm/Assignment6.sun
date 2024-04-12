@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuitePom"  thread-count="5" parallel="classes" verbose="5">
+  <test  name="POMTest">
+    <classes>
+     <class name="testcases.Tc001CreateLead"/>
+      <class name="testcases.Tc002EditLead"/>
+      <class name="testcases.Tc003DeleteLead"/>
+     <class name="testcases.Tc004MergeLead"/>
+    </classes>
+  </test> <!-- POMTest -->
+</suite> <!-- SuitePom -->
